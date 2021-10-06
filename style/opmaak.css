@@ -36,6 +36,17 @@ ul li a:hover {
   color: white;
   list-style: none;
 }
+.nav1 {
+  border-color: rgb(170, 108, 57);
+  background-color: rgb(170, 108, 57);
+  color: white;
+  font-weight: bold;
+  overflow: hidden;
+  border-radius: 500px;
+  text-decoration: none;
+  list-style: none;
+  length: 30px;
+}
 #black {
   background-color: black;
   z-index: 0;
@@ -126,7 +137,7 @@ footer h3 {
   background-color: rgb(170, 132, 57);
   border: 3px solid rgb(170, 132, 57);
   border radius: 20px;
-  position: relative;
+  position: fixed;
   top: 630px;
   left: 0px;
   width: 100%;
