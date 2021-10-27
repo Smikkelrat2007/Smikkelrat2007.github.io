@@ -9,7 +9,7 @@ header {
 header h1 {
   font-size: 250%;
   font-family: Georgia, serif;
-  color: purple;
+  color: rgb(170, 132, 57);
   text-align: center;
 }
 
@@ -20,37 +20,49 @@ header h1 {
   border: rgb(34, 102, 102) solid 3px;
   background-color: rgb(34, 102, 102);
   text-decoration: none;
-
-
 }
-ul li a:hover {
+.nav a:hover {
   border-color: rgb(170, 108, 57);
   background-color: rgb(170, 108, 57);
   color: white;
   font-weight: bold;
-
+  text-decoration: none;
 }
 nav {
 length: 30px;
 float: left;
-list-style: none;
-text-decoration: none;
-margin: 30px;
-color: white;
-length: 30px;
-list-style: none;
 }
 
-.nav1 {
-  border-color: rgb(170, 108, 57);
-  background-color: rgb(170, 108, 57);
+li {
+  list-style: none;
+  text-decoration: none;
+  margin: 30px;
   color: white;
+}
+.nav1 {
+  border: rgb(34, 102, 102) solid 3px;
+  background-color: rgb(170, 108, 57);
   font-weight: bold;
   overflow: hidden;
   border-radius: 500px;
   text-decoration: none;
-  length: 30px;
-  list-style: none;
+  color: white;
+}
+.nav1:hover {
+  border: rgb(170, 108, 57) solid 3px;
+  background-color: rgb(170, 108, 57);
+  font-weight: bold;
+  overflow: hidden;
+  border-radius: 500px;
+  color: white;
+}
+.nav1 a:hover {
+  text-decoration: none;
+  color: white;
+}
+.nav1 a {
+  text-decoration: none;
+  color: white;
 }
 #black {
   background-color: black;
@@ -118,11 +130,7 @@ list-style: none;
 }
 
 article {
-  border: 7px solid rgb(170, 132, 57);
-  border-radius: 20px;
-  margin: 15px;
-  color: white;
-  float: left;
+
 }
 section {
   float: left;
@@ -146,12 +154,27 @@ body {
   #background: url('file:///C:/Users/zenof/Downloads/1356216.jpg') no-repeat;
   background: rgb(46, 65, 114) no-repeat;
   background-size: cover;
-  color: white;
 }
 iframe {
   width: 600px;
   height: 450px;
   position: absolute;
-  top: 150px;
+  top: 199px;
   left: 435px;
+}
+p {
+  border: 7px solid rgb(170, 132, 57);
+  border-radius: 20px;
+  margin: 15px;
+  color: white;
+  float: left;
+}
+.niet-border{
+  border: none;
+  color: yellow;
+}
+.andere_plaats{
+  position: absolute;
+  top: 150px;
+  left: 585px;
 }
